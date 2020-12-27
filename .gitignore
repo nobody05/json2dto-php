@@ -4,3 +4,4 @@
 /.vagrant
 test.json
 composer.lock
+.phpunit.result.cache
