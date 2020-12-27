@@ -1,24 +1,24 @@
 {
-    "name": "atymic/json2dto",
+    "name": "phpone/json2dto",
     "license": "GPL-3.0",
     "description": "Convert JSON files to Spatie DTO objects",
     "keywords": ["spatie", "laravel", "dto", "converter", "json"],
     "homepage": "https://json2dto.atymic.dev",
     "type": "project",
     "support": {
-        "source": "https://github.com/atymic/json2dto"
+        "source": "https://github.com/nobody05/json2dto-php"
     },
     "authors": [
         {
-            "name": "atymic",
-            "email": "atymicq@gmail.com",
+            "name": "phpone",
+            "email": "1035948193@qq.com",
             "homepage": "https://atymic.dev"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.4",
         "ext-json": "*",
-        "illuminate/support": "~5.5 || ~6.0 || ~8.0",
+        "illuminate/support": "^8.0",
         "nette/php-generator": "^3.3",
         "spatie/data-transfer-object": "^1.13  || ^2.0",
         "symfony/console": "^4.2"
@@ -26,7 +26,7 @@
     },
     "require-dev": {
         "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^8.5",
+        "phpunit/phpunit": "^9",
         "spatie/phpunit-snapshot-assertions": "^3.0"
     },
     "autoload": {
